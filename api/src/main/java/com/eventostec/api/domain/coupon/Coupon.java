@@ -1,6 +1,11 @@
 package com.eventostec.api.domain.coupon;
 
-import org.hibernate.annotations.ManyToAny;
+import java.sql.Date;
+import java.util.UUID;
+
+
+
+import com.eventostec.api.domain.event.Event;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,3 +36,4 @@ public class Coupon {
   @ManyToOne
   @JoinColumn(name = "event_id")
   private Event event;
+}

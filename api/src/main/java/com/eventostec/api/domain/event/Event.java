@@ -1,5 +1,8 @@
 package com.eventostec.api.domain.event;
 
+import java.sql.Date;
+import java.util.UUID;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
