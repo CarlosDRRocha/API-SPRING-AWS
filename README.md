@@ -7,9 +7,6 @@ Projeto Pessoal para estudos de tecnologias JAVA, SPRING, POSTEGREAQL E AWS.
 
 <br>
 
-<p align="center">
-  <img alt="Estoque" src="carlosdrrocha/ProjetoEstoque-Java/github/Estoque.jpg" width="100%">
-</p>
 
 🛠 Tecnologias
 
