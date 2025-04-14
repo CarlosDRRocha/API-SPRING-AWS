@@ -1,8 +1,5 @@
 package com.eventostec.api.domain.event;
 
-import java.sql.Date;
-import java.util.UUID;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -12,6 +9,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+import java.util.UUID;
+
 @Table(name = "event")
 @Entity
 @Setter
@@ -19,19 +19,14 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Event {
-  @Id
-  @GeneratedValue
-  private UUID id;
+    @Id
+    @GeneratedValue
+    private UUID id;
 
-  private String title;
-
-  private String description;
-
-  private String imgUrl;
-
-  private String eventUrl;
-
-  private Boolean remote;
-
-  private Date date;
+    private String title;
+    private String description;
+    private String imgUrl;
+    private String eventUrl;
+    private Boolean remote;
+    private Date date;
 }
